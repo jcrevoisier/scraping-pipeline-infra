@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+.docker/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Data
+*.json
+*.csv
+*.db
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scrapy
+.scrapy
+
+# Prometheus & Grafana
+prometheus_data/
+grafana_data/
+
+# PostgreSQL
+postgres_data/
+
+# Redis
+redis_data/
